@@ -134,6 +134,77 @@ ul {
 element.style {
     width: 100%;
 }
+.hb-home-body .news .topic {
+    width: 484px;
+    float: left;
+}
+.hb-home-title {
+    overflow: hidden;
+    padding: 30px 0 15px;
+    line-height: 20px;
+}
+.hb-home-title .more {
+    color: #6D7787;
+    font-size: 14px;
+    float: right;
+}
+.hb-home-title .title {
+    color: #324057;
+    font-size: 18px;
+    float: left;
+}
+.hb-home-body .news {
+    overflow: hidden;
+    height: 318px;
+}
+.hb-home-body .news .topic {
+    width: 484px;
+    float: left;
+}
+.hb-home-body .news .topic .item,
+.hb-home-body .news .list .item {
+    display: block;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.hb-home-body .news .topic .info {
+    height: 44px;
+    padding: 10px 15px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hb-home-body .news .topic .info i {
+    display: block;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: red 0 -21px;
+}
+.hb-home-body .news .topic .info .txt {
+    margin-left: 55px;
+}
+.hb-home-body .news .topic .info .tit {
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    color: #FFF;
+    font-size: 16px;
+}
+.hb-home-body .news .list {
+    width: 368px;
+    height: 318px;
+    float: left;
+    overflow: hidden;
+}
+
 .hb-home-main {
     padding-top: 20px;
     height: 400px;
@@ -338,6 +409,38 @@ element.style {
 
 .hb-home-notice .notice .page a.next:hover {
     background-position: -56px -177px;
+}
+.hb-bg-gray2 {
+    background-color: #F3F6F9;
+}
+.hb-contain-lg {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.hb-home-body {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.hb-home-body .slide {
+    width: 852px;
+    float: left;
+}
+.hb-home-title {
+    overflow: hidden;
+    padding: 30px 0 15px;
+    line-height: 20px;
+}
+.hb-home-title .more {
+    color: #6D7787;
+    font-size: 14px;
+    float: right;
+}
+.hb-home-title .title {
+    color: #324057;
+    font-size: 18px;
+    float: left;
 }
 .hb-home-body .news {
     overflow: hidden;
